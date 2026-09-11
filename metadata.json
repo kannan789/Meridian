@@ -1,0 +1,6 @@
+{
+  "name": "Meridian Digital Agency",
+  "description": "Global remote digital web agency featuring live project dashboards, real-time client feedback tracking, collaborative design reviews, and instant quote inquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
