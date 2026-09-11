@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <div className="w-9 h-9 rounded-xl overflow-hidden shadow-xs ring-1 ring-slate-900/10 group-hover:scale-105 transition-transform shrink-0 flex items-center justify-center bg-slate-900">
                 <img 
-                  src="/favicon.svg" 
+                  src={`${import.meta.env.BASE_URL}favicon.svg`} 
                   alt="Meridian Project Logo" 
                   className="w-full h-full object-cover" 
                   referrerPolicy="no-referrer"

@@ -277,7 +277,7 @@ export default function App() {
               <div className="flex items-center gap-2.5">
                 <div className="w-8 h-8 rounded-lg overflow-hidden shrink-0 flex items-center justify-center bg-slate-950 ring-1 ring-slate-700">
                   <img 
-                    src="/favicon.svg" 
+                    src={`${import.meta.env.BASE_URL}favicon.svg`} 
                     alt="Meridian Project Logo" 
                     className="w-full h-full object-cover" 
                     referrerPolicy="no-referrer"

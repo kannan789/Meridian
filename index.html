@@ -4,9 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meridian Digital Agency</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate icon" type="image/svg+xml" href="/icon.svg" />
-    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="alternate icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="apple-touch-icon" href="./favicon.svg" />
+    <script>
+      // Single Page Apps for GitHub Pages URL restorer
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <meta name="description" content="Global remote digital web agency featuring live project dashboards, real-time client feedback tracking, collaborative design reviews, and instant quote inquiries." />
     <meta property="og:title" content="Meridian Digital Agency" />
     <meta property="og:description" content="Global remote digital web agency featuring live project dashboards, real-time client feedback tracking, collaborative design reviews, and instant quote inquiries." />
